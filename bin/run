@@ -10,6 +10,6 @@ puts "song artist: " + song.artist
 puts "song year: " + song.year
 song.save
 
-puts Song.find_by_name("Hello")
+puts Song.find_by_name("artist")
 
 # DB[:conn].execute("SELECT * FROM songs")
